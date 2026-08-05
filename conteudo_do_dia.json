@@ -1,0 +1,29 @@
+{
+  "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que estacao_cidade_app.html. O app só usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) — senão ele ignora e usa o rodízio automático interno. Para atualizar: peça para o Claude pesquisar as tendências e o horóscopo do dia e devolver este mesmo JSON preenchido, ou gere você mesmo com uma automação/API.",
+  "data": "2026-08-05",
+
+  "tendencias": {
+    "nota": "Pacote do dia (pesquisado em 05/08/2026)",
+    "resumo": "Nas últimas 24 horas, o noticiário de celebridades girou em torno de datas especiais e reviravoltas na TV. Bruna Marquezine completou 31 anos e recebeu a primeira declaração pública do namorado, Shawn Mendes, além de repercussão pela troca de imóvel no Rio. Sabrina Sato, grávida do primeiro filho com Nicolas Prattes, chamou atenção com um look que uniu tendências internacionais de moda. Na TV, Xuxa segue emocionando o público na turnê de despedida \"Último Voo da Nave\", com negociação para uma apresentação especial no Maracanã ganhar espaço na Globo. No streaming, o MasterChef Brasil 2026 teve uma repescagem cheia de estratégia que devolveu uma eliminada à competição. E na novela das seis, \"Quem Ama Cuida\" surpreendeu o público com uma reviravolta envolvendo a personagem Francesca, que muda os planos da protagonista Adriana. <a href=\"https://www.purepeople.com.br/tag/famosos-brasileiros_t419\" target=\"_blank\">Fonte: Purepeople</a>"
+  },
+
+  "pauta": {
+    "nota": "Pacote do dia (pesquisado em 05/08/2026)",
+    "topics": [
+      ["Bruna Marquezine ganha declaração pública de Shawn Mendes","A atriz completou 31 anos ao lado do namorado, que fez sua primeira declaração pública para ela e ainda participou de uma ação social com crianças no Rio.","O que vocês acham de declarações de amor feitas nas redes sociais? Vale ou é só aparência?","Purepeople"],
+      ["Sabrina Sato exibe barriguinha de grávida em look estiloso","À espera do primeiro filho com Nicolas Prattes, a apresentadora combinou tendências internacionais de moda em uma produção que repercutiu nas redes.","Conte pra gente: qual foi o look de gestante que você mais amou nos últimos tempos?","Purepeople"],
+      ["Xuxa se despede em turnê e negocia show na TV","A apresentadora segue emocionando o público na turnê de despedida \"Último Voo da Nave\" e pode ter uma apresentação no Maracanã exibida em rede nacional.","Você cresceu assistindo a Xuxa? Qual lembrança marcou sua infância com ela?","Purepeople"],
+      ["Repescagem do MasterChef Brasil 2026 agita as redes","Uma participante eliminada voltou ao reality após repescagem, em um episódio de muita estratégia e disputa na cozinha.","Quem vocês estão na torcida no MasterChef esse ano?","Purepeople"],
+      ["Novela \"Quem Ama Cuida\" tem reviravolta emocionante","Uma revelação envolvendo a personagem Francesca muda os rumos da trama de Adriana, mexendo com o público.","Quem também não perde capítulo de \"Quem Ama Cuida\"? Comenta o que achou da virada!","Purepeople"]
+    ]
+  },
+
+  "horoDia": {
+    "resumo": "O céu de hoje mistura brilho e recolhimento: o Sol em Leão pede autenticidade e coragem para mostrar quem você é, enquanto a Lua minguante em Touro convida a desacelerar, organizar a vida prática e valorizar o que já dá certo. É um dia ótimo pra fechar ciclos e escolher com mais consciência onde investir seu coração e sua energia.",
+    "grupos": [
+      ["Áries, Touro, Virgem e Capricórnio","Momento de revisar recursos e autoestima — cuide do que é seu."],
+      ["Gêmeos, Câncer, Libra e Aquário","Dia de fortalecer vínculos e melhorar a comunicação com quem se ama."],
+      ["Leão, Escorpião, Sagitário e Peixes","Hora de fechar ciclos emocionais e abrir espaço para o equilíbrio."]
+    ]
+  }
+}
