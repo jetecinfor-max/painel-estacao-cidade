@@ -1,29 +1,29 @@
 {
-  "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que estacao_cidade_app.html. O app só usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) — senão ele ignora e usa o rodízio automático interno. Para atualizar: peça para o Claude pesquisar as tendências e o horóscopo do dia e devolver este mesmo JSON preenchido, ou gere você mesmo com uma automação/API.",
-  "data": "2026-08-05",
+    "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que index.html. O app só usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) — senão ele ignora e usa o rodízio automático interno.",
+    "data": "2026-08-05",
 
-  "tendencias": {
-    "nota": "Pacote do dia (pesquisado em 05/08/2026)",
-    "resumo": "Nas últimas 24 horas, o noticiário de celebridades girou em torno de datas especiais e reviravoltas na TV. Bruna Marquezine completou 31 anos e recebeu a primeira declaração pública do namorado, Shawn Mendes, além de repercussão pela troca de imóvel no Rio. Sabrina Sato, grávida do primeiro filho com Nicolas Prattes, chamou atenção com um look que uniu tendências internacionais de moda. Na TV, Xuxa segue emocionando o público na turnê de despedida \"Último Voo da Nave\", com negociação para uma apresentação especial no Maracanã ganhar espaço na Globo. No streaming, o MasterChef Brasil 2026 teve uma repescagem cheia de estratégia que devolveu uma eliminada à competição. E na novela das seis, \"Quem Ama Cuida\" surpreendeu o público com uma reviravolta envolvendo a personagem Francesca, que muda os planos da protagonista Adriana. <a href=\"https://www.purepeople.com.br/tag/famosos-brasileiros_t419\" target=\"_blank\">Fonte: Purepeople</a>"
-  },
+    "tendencias": {
+          "nota": "Teste de commit automático (rodada 2, 05/08/2026)",
+          "resumo": "O destaque das últimas horas ficou por conta do futebol e da TV. Neymar se envolveu em climão com o presidente do Remo depois da vitória do Santos em Belém, trocando provocações que viralizaram nas redes. Na dramaturgia, \"A Nobreza do Amor\" prepara duas reviravoltas fortes: a saída de um personagem importante e a chegada de uma nova rainha, que promete confronto direto com o vilão Jendal. No universo do bem-estar, a atriz Cate Blanchett revelou que a sirsasana, postura invertida de ioga, é sua preferida para relaxar — embora especialistas reforcem a importância de preparo antes de tentar em casa. Já Virgínia Fonseca compartilhou uma receita de pudim de chia fitness, sem açúcar, que ganhou as redes por ser uma opção leve para fugir da dieta sem culpa. E de olho na próxima novela das sete, o elenco de \"Por Você\" capricho nos looks de première, misturando seda, bordado e alfaiataria. <a href=\"https://www.purepeople.com.br/tag/famosos-brasileiros_t419\" target=\"_blank\">Fonte: Purepeople</a>"
+    },
 
-  "pauta": {
-    "nota": "Pacote do dia (pesquisado em 05/08/2026)",
-    "topics": [
-      ["Bruna Marquezine ganha declaração pública de Shawn Mendes","A atriz completou 31 anos ao lado do namorado, que fez sua primeira declaração pública para ela e ainda participou de uma ação social com crianças no Rio.","O que vocês acham de declarações de amor feitas nas redes sociais? Vale ou é só aparência?","Purepeople"],
-      ["Sabrina Sato exibe barriguinha de grávida em look estiloso","À espera do primeiro filho com Nicolas Prattes, a apresentadora combinou tendências internacionais de moda em uma produção que repercutiu nas redes.","Conte pra gente: qual foi o look de gestante que você mais amou nos últimos tempos?","Purepeople"],
-      ["Xuxa se despede em turnê e negocia show na TV","A apresentadora segue emocionando o público na turnê de despedida \"Último Voo da Nave\" e pode ter uma apresentação no Maracanã exibida em rede nacional.","Você cresceu assistindo a Xuxa? Qual lembrança marcou sua infância com ela?","Purepeople"],
-      ["Repescagem do MasterChef Brasil 2026 agita as redes","Uma participante eliminada voltou ao reality após repescagem, em um episódio de muita estratégia e disputa na cozinha.","Quem vocês estão na torcida no MasterChef esse ano?","Purepeople"],
-      ["Novela \"Quem Ama Cuida\" tem reviravolta emocionante","Uma revelação envolvendo a personagem Francesca muda os rumos da trama de Adriana, mexendo com o público.","Quem também não perde capítulo de \"Quem Ama Cuida\"? Comenta o que achou da virada!","Purepeople"]
-    ]
-  },
+    "pauta": {
+          "nota": "Teste de commit automático (rodada 2, 05/08/2026)",
+          "topics": [
+                  ["Neymar se envolve em climão com presidente do Remo","Após a vitória do Santos em Belém, o craque trocou farpas com o presidente do clube adversário, que criticou duramente sua provocação em campo.","O que vocês acham de jogador provocar o time adversário depois da vitória? Justo ou exagero?","Purepeople"],
+                  ["Novela \"A Nobreza do Amor\" prepara duas reviravoltas","A trama global promete a saída de um personagem importante e a chegada de uma nova rainha, que confronta o vilão Jendal nos próximos capítulos.","Quem aqui acompanha \"A Nobreza do Amor\"? Me conta o que você espera para a novela!","Purepeople"],
+                  ["Cate Blanchett revela postura de ioga favorita para relaxar","A atriz internacional é adepta da sirsasana, a postura invertida mais difícil da ioga, embora especialistas alertem sobre o preparo técnico necessário.","Você pratica alguma atividade para relaxar depois de um dia corrido?","Purepeople"],
+                  ["Virgínia Fonseca compartilha receita de sobremesa fitness","A influenciadora publicou um pudim de chia sem açúcar, opção leve para matar a vontade de doce sem sair da dieta.","Quem topa testar a receita hoje à noite?","Purepeople"],
+                  ["Elenco de \"Por Você\" aposta em looks elegantes na première","Sheron Menezzes, Alinne Moraes e Renata Sorrah lideram os looks de seda, bordado e alfaiataria no lançamento da nova novela das sete.","Você já está na expectativa para a nova novela das sete?","Purepeople"]
+          ]
+    },
 
-  "horoDia": {
-    "resumo": "O céu de hoje mistura brilho e recolhimento: o Sol em Leão pede autenticidade e coragem para mostrar quem você é, enquanto a Lua minguante em Touro convida a desacelerar, organizar a vida prática e valorizar o que já dá certo. É um dia ótimo pra fechar ciclos e escolher com mais consciência onde investir seu coração e sua energia.",
-    "grupos": [
-      ["Áries, Touro, Virgem e Capricórnio","Momento de revisar recursos e autoestima — cuide do que é seu."],
-      ["Gêmeos, Câncer, Libra e Aquário","Dia de fortalecer vínculos e melhorar a comunicação com quem se ama."],
-      ["Leão, Escorpião, Sagitário e Peixes","Hora de fechar ciclos emocionais e abrir espaço para o equilíbrio."]
-    ]
-  }
+    "horoDia": {
+          "resumo": "Hoje o astral pede duas coisas ao mesmo tempo: brilhar e descansar. O Sol em Leão te empurra a ser mais você mesma, sem medo de aparecer; já a Lua murchando em Touro pede pé no chão, rotina cuidada e menos pressa. Um dia perfeito pra fechar contas — literais e emocionais — antes de abrir uma página nova.",
+          "grupos": [
+                  ["Áries, Touro, Virgem e Capricórnio","Foco em finanças e autoestima: organize o que está solto."],
+                  ["Gêmeos, Câncer, Libra e Aquário","Boas conversas resolvem o que o silêncio andou complicando."],
+                  ["Leão, Escorpião, Sagitário e Peixes","Deixe ir o que já cumpriu seu papel — o novo ciclo já está a caminho."]
+          ]
+    }
 }
