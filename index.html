@@ -123,6 +123,25 @@
   .refresh-btn svg{width:12px; height:12px; transition:transform .4s ease;}
   .refresh-btn.spin svg{transform:rotate(360deg);}
 
+  .actions-group{display:flex; gap:6px; margin-left:auto; align-items:center; flex-wrap:wrap;}
+  .actions-group .refresh-btn{margin-left:0;}
+  .read-btn{
+    display:inline-flex; align-items:center; gap:5px; font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px; letter-spacing:.05em; text-transform:uppercase;
+    background:transparent; color:var(--ink-soft, #5c5442);
+    border:1px solid var(--line-soft, rgba(43,37,23,0.14));
+    border-radius:100px; padding:5px 11px; cursor:pointer;
+    transition:background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .read-btn:hover{background:#e6f7ee; border-color:#2f8f5b; color:#1c5c3a;}
+  .read-btn.is-read{background:#2f8f5b; color:#fff; border-color:#2f8f5b;}
+  .read-count{
+    font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--ink-soft, #5c5442);
+    opacity:.75; margin-top:6px;
+  }
+  .read-count a{color:var(--teal, #1fac97); text-decoration:none; cursor:pointer;}
+  .read-count a:hover{text-decoration:underline;}
+
   .lead{font-size:13.5px; color:var(--ink-soft); margin:0 0 14px;}
 
   .friend-msg{
@@ -238,7 +257,7 @@
     <section class="card cell-6" style="--accent:var(--blue)" data-card="palavra">
       <div class="card-head">
         <div><span class="tag">Quadro fixo</span><h2>Palavra Amiga do Dia</h2></div>
-        <button class="refresh-btn" onclick="renovar('palavra')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('palavra')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('palavra')" data-read-btn="palavra">✅ Já li</button></div>
       </div>
       <div class="friend-msg" data-slot="mensagem"></div>
       <p style="font-size:12px; color:var(--ink-soft); margin:0 0 8px; font-weight:600;">BG sugerido (3 músicas):</p>
@@ -250,7 +269,7 @@
     <section class="card cell-6" style="--accent:var(--teal)" data-card="triplex">
       <div class="card-head">
         <div><span class="tag">Bloco musical</span><h2>Triplex — sucessos do momento</h2></div>
-        <button class="refresh-btn" onclick="renovar('triplex')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('triplex')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('triplex')" data-read-btn="triplex">✅ Já li</button></div>
       </div>
       <p class="lead">3 músicas de sucesso, sem repertório infantil, católico ou evangélico.</p>
       <div class="song-grid" data-slot="songs"></div>
@@ -261,7 +280,7 @@
     <section class="card cell-12" style="--accent:var(--lime)" data-card="tendencias">
       <div class="card-head">
         <div><span class="tag">Pesquisa de tendências</span><h2>O que está em evidência nas últimas 24h</h2></div>
-        <button class="refresh-btn" onclick="renovar('tendencias')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('tendencias')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('tendencias')" data-read-btn="tendencias">✅ Já li</button></div>
       </div>
       <div class="stale-warning" data-warn="tendencias"></div>
       <p class="trend-summary" data-slot="resumo"></p>
@@ -272,7 +291,7 @@
     <section class="card cell-12" style="--accent:var(--blue)" data-card="pauta">
       <div class="card-head">
         <div><span class="tag">Criação de pautas</span><h2>Pauta do dia — ponto de partida com o ouvinte</h2></div>
-        <button class="refresh-btn" onclick="renovar('pauta')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('pauta')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('pauta')" data-read-btn="pauta">✅ Já li</button></div>
       </div>
       <div class="stale-warning" data-warn="pauta"></div>
       <div data-slot="topics"></div>
@@ -287,7 +306,7 @@
     <section class="card cell-7" style="--accent:var(--blue)" data-card="melhor3">
       <div class="card-head">
         <div><span class="tag">Bloco musical</span><h2>Melhor de Três — 70, 80, 90, 2000</h2></div>
-        <button class="refresh-btn" onclick="renovar('melhor3')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('melhor3')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('melhor3')" data-read-btn="melhor3">✅ Já li</button></div>
       </div>
       <p class="lead">3 sucessos por década, sem infantil, católico ou evangélico.</p>
       <table class="decade-table">
@@ -301,7 +320,7 @@
     <section class="card cell-5" style="--accent:var(--teal)" data-card="horoDia">
       <div class="card-head">
         <div><span class="tag">Horóscopo</span><h2>Horóscopo cativante</h2></div>
-        <button class="refresh-btn" onclick="renovar('horoDia')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('horoDia')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('horoDia')" data-read-btn="horoDia">✅ Já li</button></div>
       </div>
       <div class="stale-warning" data-warn="horoDia"></div>
       <p class="horo-summary" data-slot="resumo"></p>
@@ -312,7 +331,7 @@
     <section class="card cell-7" style="--accent:var(--lime)" data-card="horoCuriosidades">
       <div class="card-head">
         <div><span class="tag">Curiosidades</span><h2>Horóscopo — curiosidades dos signos</h2></div>
-        <button class="refresh-btn" onclick="renovar('horoCuriosidades')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('horoCuriosidades')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('horoCuriosidades')" data-read-btn="horoCuriosidades">✅ Já li</button></div>
       </div>
       <div class="sign-cards" data-slot="signos"></div>
       <div class="variant-note" data-slot="nota"></div>
@@ -322,7 +341,7 @@
     <section class="card cell-5" style="--accent:var(--blue)" data-card="dicas">
       <div class="card-head">
         <div><span class="tag">Utilidade pública</span><h2>Dicas úteis</h2></div>
-        <button class="refresh-btn" onclick="renovar('dicas')">🔄 Renovar</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('dicas')">🔄 Renovar</button><button class="read-btn" onclick="marcarLido('dicas')" data-read-btn="dicas">✅ Já li</button></div>
       </div>
       <div class="tips" data-slot="tips"></div>
       <div class="variant-note" data-slot="nota"></div>
@@ -332,7 +351,7 @@
     <section class="card cell-12" style="--accent:var(--teal)" data-card="top20">
       <div class="card-head">
         <div><span class="tag">Streaming</span><h2>Mais tocadas — Spotify, Deezer &amp; Amazon Music</h2></div>
-        <button class="refresh-btn" onclick="renovar('top20')">🔄 Renovar exibição</button>
+        <div class="actions-group"><button class="refresh-btn" onclick="renovar('top20')">🔄 Renovar exibição</button><button class="read-btn" onclick="marcarLido('top20')" data-read-btn="top20">✅ Já li</button></div>
       </div>
       <p class="lead">Curadoria de pesquisa, em ordem, sem numeração — confirme posições exatas nas plataformas antes de divulgar ao vivo.</p>
       <ul class="top20-list" data-slot="lista"></ul>
@@ -759,6 +778,138 @@ async function tryLoadDailyPack(){
     if(statusEl) statusEl.textContent = '📦 Não encontrei (ou o navegador bloqueou) conteudo_do_dia.json — usando o rodízio automático salvo neste arquivo.';
   }
 }
+/* =========================================================================
+   SISTEMA "JÁ LI" — marca variações como lidas para não aparecerem de novo
+   - localStorage: guarda { key: [indices lidos] }
+   - Ao marcar, atualiza o botão, o contador, e re-sorteia se a atual foi lida
+   - "Resetar" limpa a lista da seção
+   - Integra com pickAutoIndex: se todas foram lidas, ignora o filtro
+   ========================================================================= */
+const READ_KEY = 'estacaoCidade_v1_lidos';
+function loadRead(){
+  try{ return JSON.parse(localStorage.getItem(READ_KEY)) || {}; }catch(e){ return {}; }
+}
+function saveRead(r){
+  try{ localStorage.setItem(READ_KEY, JSON.stringify(r)); }catch(e){}
+}
+let readState = loadRead();
+
+function getReadList(key){
+  return Array.isArray(readState[key]) ? readState[key] : [];
+}
+function isRead(key, idx){
+  return getReadList(key).indexOf(idx) !== -1;
+}
+
+/* Sobrescreve pickAutoIndex para pular variações já lidas.
+   Se TODAS estão lidas, o filtro é ignorado (mantém o app funcionando). */
+const _pickAutoIndexOriginal = pickAutoIndex;
+pickAutoIndex = function(key, history){
+  const arr = DATA[key];
+  if(arr.length <= 1) return 0;
+  const lidos = getReadList(key);
+  const disponiveis = arr.map((_,i)=>i).filter(i=>lidos.indexOf(i)===-1);
+  if(disponiveis.length === 0) return _pickAutoIndexOriginal(key, history);
+  // preferir nunca-usados, depois mais antigos, entre os não-lidos
+  const entry = history[key] || {log:[]};
+  const lastUsedByIndex = {};
+  entry.log.forEach(e => { lastUsedByIndex[e.index] = e.date; });
+  let candidatos = disponiveis.filter(i => lastUsedByIndex[i] === undefined);
+  if(candidatos.length === 0){
+    let oldestIdx = disponiveis[0], oldestDate = null;
+    disponiveis.forEach(i=>{
+      const dt = lastUsedByIndex[i];
+      if(oldestDate === null || (dt && dt < oldestDate)){ oldestDate = dt; oldestIdx = i; }
+    });
+    candidatos = [oldestIdx];
+  }
+  if(candidatos.length > 1 && entry.lastIndex !== undefined){
+    const semRepetirUltimo = candidatos.filter(i => i !== entry.lastIndex);
+    if(semRepetirUltimo.length) candidatos = semRepetirUltimo;
+  }
+  return candidatos[Math.floor(Math.random()*candidatos.length)];
+};
+
+function ensureReadCountEl(key){
+  const card = document.querySelector(`[data-card="${key}"]`);
+  if(!card) return null;
+  let el = card.querySelector('.read-count');
+  if(!el){
+    el = document.createElement('div');
+    el.className = 'read-count';
+    el.setAttribute('data-read-count', key);
+    // Inserir antes do variant-note ou como último filho
+    const nota = card.querySelector('[data-slot="nota"]');
+    if(nota) nota.parentNode.insertBefore(el, nota); else card.appendChild(el);
+  }
+  return el;
+}
+
+function updateReadUI(key){
+  const arr = DATA[key];
+  if(!arr) return;
+  const total = arr.length;
+  const lidos = getReadList(key).length;
+  const el = ensureReadCountEl(key);
+  if(el){
+    if(lidos === 0){
+      el.innerHTML = `0 de ${total} lidos`;
+    } else {
+      el.innerHTML = `${lidos} de ${total} lidos · <a onclick="resetarLidos('${key}')">Desmarcar todos</a>`;
+    }
+  }
+  // Atualizar aparência do botão "Já li" conforme a variação atual
+  const btn = document.querySelector(`[data-read-btn="${key}"]`);
+  if(btn){
+    const atualLida = isRead(key, state[key]);
+    btn.classList.toggle('is-read', atualLida);
+    btn.textContent = atualLida ? '✔ Lido' : '✅ Já li';
+  }
+}
+
+function marcarLido(key){
+  const arr = DATA[key];
+  if(!arr) return;
+  const idxAtual = state[key];
+  const lidos = getReadList(key);
+  if(lidos.indexOf(idxAtual) === -1){
+    lidos.push(idxAtual);
+    readState[key] = lidos;
+    saveRead(readState);
+  }
+  updateReadUI(key);
+
+  // Se ainda restam variações não lidas, sortear a próxima automaticamente
+  const restantes = arr.length - lidos.length;
+  if(restantes > 0){
+    const proximaIdx = pickAutoIndex(key, history);
+    state[key] = proximaIdx;
+    history = recordChoice(history, key, proximaIdx, today);
+    saveHistory(history);
+    paint(key);
+    updateReadUI(key);
+  }
+}
+
+function resetarLidos(key){
+  if(!confirm(`Desmarcar todas as leituras deste bloco?`)) return;
+  readState[key] = [];
+  saveRead(readState);
+  updateReadUI(key);
+}
+
+// Inicializar contadores em todos os cards com opções
+['palavra','triplex','melhor3','tendencias','pauta','horoDia','horoCuriosidades','dicas','top20'].forEach(k=>{
+  if(DATA[k]) updateReadUI(k);
+});
+
+// Interceptar renovar() e paint() para atualizar o estado do botão após cada troca
+const _renovarOriginal = renovar;
+renovar = function(key){
+  _renovarOriginal(key);
+  updateReadUI(key);
+};
+
 /* Datas dinâmicas — topo e avisos amarelos/verdes */
 (function(){
   var LBL = {
