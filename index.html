@@ -190,6 +190,9 @@
     background:#fff4dc; border:1px solid #e0b23a; color:#6b4a06; border-radius:9px;
     padding:9px 12px; font-size:12px; line-height:1.5; margin-bottom:12px;
   }
+  .stale-warning.fresh{
+    background:#e6f7ee; border-color:#2f8f5b; color:#1c5c3a;
+  }
 
   .util-btn{
     display:inline-flex; align-items:center; gap:6px; font-family:'IBM Plex Mono',monospace;
@@ -219,7 +222,7 @@
     <div class="meta-block">
       <div><b>Horário</b> — 10h às 13h · Seg/Sex</div>
       <div><b>Público-alvo</b> — 30 a 55 anos, maioria feminino</div>
-      <div><b>Edição</b> — 05/08/2026 (3ª chamada)</div>
+      <div><b>Edição</b> — <span id="edicao-data">--/--/----</span></div>
       <div><span class="device-badge" id="device-badge">🖥️ Desktop</span></div>
     </div>
   </header>
@@ -260,7 +263,7 @@
         <div><span class="tag">Pesquisa de tendências</span><h2>O que está em evidência nas últimas 24h</h2></div>
         <button class="refresh-btn" onclick="renovar('tendencias')">🔄 Renovar</button>
       </div>
-      <div class="stale-warning">⚠️ Estas 4 opções são notícias reais pesquisadas em 05/08/2026 — elas não se atualizam solas com o passar dos dias. Para o dia de hoje ter notícia de verdade, me peça no chat pra pesquisar e atualizar esta seção.</div>
+      <div class="stale-warning" data-warn="tendencias"></div>
       <p class="trend-summary" data-slot="resumo"></p>
       <div class="variant-note" data-slot="nota"></div>
     </section>
@@ -271,7 +274,7 @@
         <div><span class="tag">Criação de pautas</span><h2>Pauta do dia — ponto de partida com o ouvinte</h2></div>
         <button class="refresh-btn" onclick="renovar('pauta')">🔄 Renovar</button>
       </div>
-      <div class="stale-warning">⚠️ Mesmo aviso da Pesquisa de Tendências: estes temas são de 05/08/2026, não são gerados ao vivo por este arquivo.</div>
+      <div class="stale-warning" data-warn="pauta"></div>
       <div data-slot="topics"></div>
       <table>
         <thead><tr><th>Tema</th><th>Fonte</th></tr></thead>
@@ -300,7 +303,7 @@
         <div><span class="tag">Horóscopo</span><h2>Horóscopo cativante</h2></div>
         <button class="refresh-btn" onclick="renovar('horoDia')">🔄 Renovar</button>
       </div>
-      <div class="stale-warning">⚠️ Leitura astrológica real de 05/08/2026 — o dia muda, os astros também. Peça uma atualização pra mim quando for usar em outra data.</div>
+      <div class="stale-warning" data-warn="horoDia"></div>
       <p class="horo-summary" data-slot="resumo"></p>
       <div class="horo-groups" data-slot="grupos"></div>
     </section>
@@ -756,6 +759,50 @@ async function tryLoadDailyPack(){
     if(statusEl) statusEl.textContent = '📦 Não encontrei (ou o navegador bloqueou) conteudo_do_dia.json — usando o rodízio automático salvo neste arquivo.';
   }
 }
+/* Datas dinâmicas — topo e avisos amarelos/verdes */
+(function(){
+  var LBL = {
+    tendencias: 'as notícias',
+    pauta: 'os temas de pauta',
+    horoDia: 'a leitura astrológica'
+  };
+  function td(){
+    var d = new Date();
+    return String(d.getDate()).padStart(2,'0') + '/' +
+           String(d.getMonth()+1).padStart(2,'0') + '/' +
+           d.getFullYear();
+  }
+  function setEdicao(){
+    var e = document.getElementById('edicao-data');
+    if(e) e.textContent = td();
+  }
+  function paintWarn(k, fresh){
+    var el = document.querySelector('[data-warn="' + k + '"]');
+    if(!el) return;
+    var lb = LBL[k] || 'este conteúdo';
+    if(fresh){
+      el.innerHTML = '✅ Conteúdo de <b>' + td() + '</b>, carregado automaticamente do pacote do dia (conteudo_do_dia.json).';
+      el.classList.add('fresh');
+    } else {
+      el.innerHTML = '⚠️ Exibindo ' + lb + ' de uma edição anterior (rodízio interno). Para ter ' + lb + ' de <b>hoje (' + td() + ')</b>, atualize o conteudo_do_dia.json com a data de hoje.';
+      el.classList.remove('fresh');
+    }
+  }
+  function refresh(){
+    var s = document.getElementById('live-status');
+    var live = s && /Conte[úu]do real de hoje/.test(s.textContent);
+    ['tendencias','pauta','horoDia'].forEach(function(k){ paintWarn(k, !!live); });
+  }
+  setEdicao();
+  refresh();
+  var s = document.getElementById('live-status');
+  if(s && window.MutationObserver){
+    new MutationObserver(refresh).observe(s, {childList:true, characterData:true, subtree:true});
+  }
+  setTimeout(refresh, 1500);
+  setTimeout(refresh, 4000);
+})();
+
 tryLoadDailyPack();
 </script>
 </body>
