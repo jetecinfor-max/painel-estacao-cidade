@@ -1,29 +1,26 @@
 {
-    "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que index.html. O app só usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) — senão ele ignora e usa o rodízio automático interno.",
-    "data": "2026-08-05",
-
-    "tendencias": {
-          "nota": "Teste de commit automático (rodada 2, 05/08/2026)",
-          "resumo": "O destaque das últimas horas ficou por conta do futebol e da TV. Neymar se envolveu em climão com o presidente do Remo depois da vitória do Santos em Belém, trocando provocações que viralizaram nas redes. Na dramaturgia, \"A Nobreza do Amor\" prepara duas reviravoltas fortes: a saída de um personagem importante e a chegada de uma nova rainha, que promete confronto direto com o vilão Jendal. No universo do bem-estar, a atriz Cate Blanchett revelou que a sirsasana, postura invertida de ioga, é sua preferida para relaxar — embora especialistas reforcem a importância de preparo antes de tentar em casa. Já Virgínia Fonseca compartilhou uma receita de pudim de chia fitness, sem açúcar, que ganhou as redes por ser uma opção leve para fugir da dieta sem culpa. E de olho na próxima novela das sete, o elenco de \"Por Você\" capricho nos looks de première, misturando seda, bordado e alfaiataria. <a href=\"https://www.purepeople.com.br/tag/famosos-brasileiros_t419\" target=\"_blank\">Fonte: Purepeople</a>"
-    },
-
-    "pauta": {
-          "nota": "Teste de commit automático (rodada 2, 05/08/2026)",
-          "topics": [
-                  ["Neymar se envolve em climão com presidente do Remo","Após a vitória do Santos em Belém, o craque trocou farpas com o presidente do clube adversário, que criticou duramente sua provocação em campo.","O que vocês acham de jogador provocar o time adversário depois da vitória? Justo ou exagero?","Purepeople"],
-                  ["Novela \"A Nobreza do Amor\" prepara duas reviravoltas","A trama global promete a saída de um personagem importante e a chegada de uma nova rainha, que confronta o vilão Jendal nos próximos capítulos.","Quem aqui acompanha \"A Nobreza do Amor\"? Me conta o que você espera para a novela!","Purepeople"],
-                  ["Cate Blanchett revela postura de ioga favorita para relaxar","A atriz internacional é adepta da sirsasana, a postura invertida mais difícil da ioga, embora especialistas alertem sobre o preparo técnico necessário.","Você pratica alguma atividade para relaxar depois de um dia corrido?","Purepeople"],
-                  ["Virgínia Fonseca compartilha receita de sobremesa fitness","A influenciadora publicou um pudim de chia sem açúcar, opção leve para matar a vontade de doce sem sair da dieta.","Quem topa testar a receita hoje à noite?","Purepeople"],
-                  ["Elenco de \"Por Você\" aposta em looks elegantes na première","Sheron Menezzes, Alinne Moraes e Renata Sorrah lideram os looks de seda, bordado e alfaiataria no lançamento da nova novela das sete.","Você já está na expectativa para a nova novela das sete?","Purepeople"]
-          ]
-    },
-
-    "horoDia": {
-          "resumo": "Hoje o astral pede duas coisas ao mesmo tempo: brilhar e descansar. O Sol em Leão te empurra a ser mais você mesma, sem medo de aparecer; já a Lua murchando em Touro pede pé no chão, rotina cuidada e menos pressa. Um dia perfeito pra fechar contas — literais e emocionais — antes de abrir uma página nova.",
-          "grupos": [
-                  ["Áries, Touro, Virgem e Capricórnio","Foco em finanças e autoestima: organize o que está solto."],
-                  ["Gêmeos, Câncer, Libra e Aquário","Boas conversas resolvem o que o silêncio andou complicando."],
-                  ["Leão, Escorpião, Sagitário e Peixes","Deixe ir o que já cumpriu seu papel — o novo ciclo já está a caminho."]
-          ]
-    }
+      "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que index.html. O app so usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) - senao ele ignora e usa o rodizio automatico interno.",
+      "data": "2026-08-05",
+      "tendencias": {
+              "nota": "Pacote do dia (atualizado - teste de commit automatico)",
+              "resumo": "Nas ultimas horas, o destaque ficou entre musica, novela e bem-estar. A turne de despedida O Ultimo Voo da Nave reuniu famosos como Bruna Marquezine, Shawn Mendes, Wanessa Camargo e Klara Castanho na segunda apresentacao, com clima de festa entre os convidados. Nas novelas, Alem do Tempo promete uma virada triunfal nos capitulos desta semana, enquanto Quem Ama Cuida entra em semana tensa, com guerra entre Adriana e Pilar e um sequestro envolvendo a personagem Elisa. Tati Quebra Barraco revelou os segredos da pele radiante que mantem mesmo apos shows puxados. E repercutiu o comentario de Maiara sobre um possivel novo sobrinho, ao falar sobre rumores de gravidez da irma Maraisa. <a href='https://www.purepeople.com.br/' target='_blank'>Fonte: Purepeople</a>"
+      },
+      "pauta": {
+              "nota": "Pacote do dia (atualizado - teste de commit automatico)",
+              "topics": [
+                        ["Turne O Ultimo Voo da Nave reune famosos na 2a apresentacao","Bruna Marquezine, Shawn Mendes, Wanessa Camargo e Klara Castanho marcaram presenca na segunda apresentacao da turne de despedida.","Voce ja foi a algum show de despedida marcante? Conta pra gente como foi!","Purepeople"],
+                        ["Novela Alem do Tempo promete virada triunfal essa semana","Os capitulos decisivos trazem um momento emocionante entre Vitoria e Bernardo, mudando o rumo da trama.","Quem acompanha Alem do Tempo? O que voce espera pra essa virada?","Purepeople"],
+                        ["Quem Ama Cuida tem semana de guerra entre Adriana e Pilar","Os capitulos desta semana trazem confronto direto entre as duas e um sequestro envolvendo a personagem Elisa.","Voce ta na torcida por quem nessa treta entre Adriana e Pilar?","Purepeople"],
+                        ["Tati Quebra Barraco revela segredos de pele radiante","A funkeira compartilhou sua rotina de autocuidado apos os shows, incluindo um metodo inusitado.","Qual e o seu truque de beleza favorito pra depois de um dia cansativo?","Purepeople"],
+                        ["Maiara comenta rumor de gravidez da irma Maraisa","Durante uma conversa, Maiara fez uma brincadeira sobre a possibilidade de ganhar um sobrinho.","Quem aqui ja viveu a expectativa de saber se um familiar tava esperando bebe? Conta a reacao!","Purepeople"]
+              ]
+      },
+      "horoDia": {
+              "resumo": "O ceu de hoje mistura brilho e recolhimento: o Sol em Leao pede autenticidade e coragem para mostrar quem voce e, enquanto a Lua minguante em Touro convida a desacelerar, organizar a vida pratica e valorizar o que ja da certo. E um dia otimo pra fechar ciclos e escolher com mais consciencia onde investir seu coracao e sua energia.",
+              "grupos": [
+                        ["Aries, Touro, Virgem e Capricornio","Momento de revisar recursos e autoestima - cuide do que e seu."],
+                        ["Gemeos, Cancer, Libra e Aquario","Dia de fortalecer vinculos e melhorar a comunicacao com quem se ama."],
+                        ["Leao, Escorpiao, Sagitario e Peixes","Hora de fechar ciclos emocionais e abrir espaco para o equilibrio."]
+              ]
+      }
 }
