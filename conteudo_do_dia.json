@@ -1,6 +1,6 @@
 {
       "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que index.html. O app so usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) - senao ele ignora e usa o rodizio automatico interno.",
-      "data": "2026-08-05",
+      "data": "2026-08-06",
       "tendencias": {
               "nota": "Pacote do dia (atualizado - teste de commit automatico)",
               "resumo": "Nas ultimas horas, o destaque ficou entre musica, novela e bem-estar. A turne de despedida O Ultimo Voo da Nave reuniu famosos como Bruna Marquezine, Shawn Mendes, Wanessa Camargo e Klara Castanho na segunda apresentacao, com clima de festa entre os convidados. Nas novelas, Alem do Tempo promete uma virada triunfal nos capitulos desta semana, enquanto Quem Ama Cuida entra em semana tensa, com guerra entre Adriana e Pilar e um sequestro envolvendo a personagem Elisa. Tati Quebra Barraco revelou os segredos da pele radiante que mantem mesmo apos shows puxados. E repercutiu o comentario de Maiara sobre um possivel novo sobrinho, ao falar sobre rumores de gravidez da irma Maraisa. <a href='https://www.purepeople.com.br/' target='_blank'>Fonte: Purepeople</a>"
