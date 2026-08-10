@@ -35,8 +35,14 @@
       "horoscopo_curiosidades_extra": ["Áries", "Virgem", "Libra"],
       "dicas_uteis_extra": ["Defina as 3 prioridades do dia antes de sair de casa", "Deixe bolsa e chaves sempre no mesmo lugar", "Programe um alarme só para beber água", "Alongue pescoço e ombros por 5 minutos", "Anote os gastos no celular na hora que gastar", "Prepare o café da manhã do dia seguinte antes de dormir"],
       "pauta_temas_extra": ["Vini Jr. - contrato Real Madrid", "Claudia Raia - mansão sustentável", "Leilão beneficente de Neymar - looks", "Cachorrinha de Bruna Marquezine", "Série Fúria - Netflix", "Jantar Bruna Marquezine e Shawn Mendes com Sasha e João Lucas", "Perfume gêmeo baratinho", "Dicas para disfarçar fios brancos", "Processo Deborah Secco e vizinho", "Carta da mãe de Deolane Bezerra"]
+    },
+    {
+      "edicao": 4,
+      "data": "2026-08-10",
+      "pauta_temas": ["Anitta - turnê Equilíbrivm e performance Divino Sexual", "Gabriel Medina pede Isabella Arantes em casamento", "Ivete Sangalo - novo namorado Tiago Maia", "Novela Além do Tempo - sequestro de Bernardo e Emília viva", "Larissa Manoela e André Luiz - reforma da nova mansão", "A Fazenda 17 - flagra Michelle Barros e Shia"],
+      "horoscopo_curiosidades": ["Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem", "Libra", "Escorpião", "Sagitário", "Capricórnio", "Aquário", "Peixes"]
     }
   ],
-  "todos_signos_ja_usados": ["Leão", "Touro", "Escorpião", "Câncer", "Sagitário", "Peixes", "Áries", "Virgem", "Libra"],
-  "signos_restantes_para_proxima_rodada": ["Gêmeos", "Capricórnio", "Aquário"]
+  "todos_signos_ja_usados": ["Leão", "Touro", "Escorpião", "Câncer", "Sagitário", "Peixes", "Áries", "Virgem", "Libra", "Gêmeos", "Capricórnio", "Aquário"],
+  "signos_restantes_para_proxima_rodada": []
 }
