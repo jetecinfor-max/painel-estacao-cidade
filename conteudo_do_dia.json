@@ -1,26 +1,60 @@
 {
   "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que index.html. O app so usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) - senao ele ignora e usa o rodizio automatico interno.",
-  "data": "2026-08-18",
+  "data": "2026-10-26",
   "tendencias": {
     "nota": "Fenômeno da vez",
-    "resumo": "Ticiane Pinheiro estreou oficialmente no 'Dança dos Famosos 2026', marcando seu retorno à Globo após 20 anos na Record. A apresentadora integra o time de 16 famosos que disputam a nova temporada do tradicional quadro do Domingão com Huck, ao lado de nomes como Otaviano Costa, Breno Ferreira, Junno Andrade e Lucas Guedez. A estreia, no último domingo (16), repercutiu forte nas redes, com o público comentando a adaptação de Ticiane à nova casa e torcendo pelo desempenho da apresentadora na pista. O quadro, um dos mais tradicionais da TV brasileira, promete embalar os domingos dos próximos meses com coreografias, jurados renomados e eliminações concorridas, reunindo atores, cantores, influenciadores e até uma surfista profissional na disputa. <a href='https://www.otempo.com.br/entretenimento/2026/8/17/danca-dos-famosos-2026-quem-sao-os-16-participantes-da-nova-temporada' target='_blank'>Fonte: O Tempo</a>"
+    "resumo": "A morte da atriz e cantora Lua Blanco, aos 39 anos, segue repercutindo. Conhecida por interpretar Roberta Messi na versão brasileira de 'Rebelde', exibida pela Record entre 2011 e 2012, e integrante do grupo Rebeldes, ela morreu no domingo (18) após meses de luta contra um câncer. A família, representada pelo irmão Daniel Blanco, anunciou a perda nas redes. Dulce María, da série original mexicana, disse estar completamente em choque, e ex-colegas como Sophia Abrahão e Arthur Aguiar publicaram homenagens emocionadas. Nesta semana, o pai da artista contou que ela partiu em paz, de mãos dadas com a mãe, o que comoveu ainda mais os fãs que cresceram acompanhando a turma de Rebelde. A despedida reacende a nostalgia de uma geração inteira. <a href='https://www.dgabc.com.br/Noticia/4353442/dulce-maria-e-elenco-de-rebelde-brasil-lamentam-morte-de-lua-blanco' target='_blank'>Fonte: Diário do Grande ABC</a>"
   },
   "pauta": {
     "nota": "Papo de corredor",
     "topics": [
-      ["Paula Fernandes celebra 30 anos de carreira com novo projeto", "A cantora lançou o single 'Era Eu', primeira faixa do projeto 'Trinta & Poucos Anos', que revisita fases marcantes de sua trajetória com regravações e reencontros musicais, contando o encontro emocionado com a Paula de décadas atrás.", "Qual música marcou a trilha sonora da sua adolescência?", "Universal Music Brasil"],
-      ["Ivete Sangalo assume affair com o empresário Tiago Maia", "A cantora baiana foi fotografada em clima de romance durante férias em Saint-Tropez, na França. É o primeiro affair público de Ivete desde o fim do casamento de 17 anos com Daniel Cady.", "Você acredita em recomeçar o amor depois de uma relação longa?", "O Tempo"],
-      ["Thaís Carla e Israel Reis anunciam fim de casamento de 11 anos", "O casal de influenciadores comunicou a separação em publicação conjunta nas redes sociais. Pais de duas meninas, eles negaram boatos sobre o motivo do fim da relação e prometeram manter a parceria na criação das filhas.", "O que você considera mais importante para um casamento durar?", "CNN Brasil"],
-      ["Zezé Motta é homenageada em retrospectiva de carreira", "Aos 82 anos, a atriz e ícone da cultura negra brasileira ganhou mostra especial do CineSesc, com exibição de documentário e exibição de filmes que marcaram sua trajetória, como 'Xica da Silva' e 'Quilombo'.", "Qual atriz brasileira você considera inesquecível?", "Sesc Maranhão"],
-      ["Cristiano Ronaldo surpreende ao surgir com cabelo ruivo", "O craque português apareceu com um visual completamente novo nas redes sociais, poucos dias após se casar com Georgina Rodríguez. A mudança radical viralizou entre os fãs, divididos entre elogios e estranhamento com a nova cor.", "Você já ousou mudar radicalmente o visual?", "Purepeople"]
+      [
+        "Renner volta aos palcos em homenagem a Rick",
+        "Um mês após o acidente aéreo que levou Rick, Renner confirmou carreira solo com o projeto 'Rick & Renner Pra Sempre – O Legado', prometendo manter viva a história da dupla sertaneja que marcou gerações.",
+        "Qual música de Rick & Renner nunca sai da sua cabeça?",
+        "Diário de Pernambuco"
+      ],
+      [
+        "Patrícia Poeta faz 50 anos e chora no Encontro",
+        "A apresentadora comemorou o meio século de vida em Angra dos Reis, com edição especial do programa, show do Grupo Revelação e uma surpresa emocionante do filho Felipe, ao vivo, com buquê de flores.",
+        "Qual foi a surpresa de aniversário mais emocionante que você já recebeu?",
+        "Diário do Grande ABC"
+      ],
+      [
+        "Famosos reagem ao resultado do 2º turno",
+        "Artistas como Fátima Bernardes, José Loreto e Alcione se manifestaram nas redes após a vitória de Lula, enquanto outros nomes públicos também comentaram o resultado das urnas.",
+        "Você acha que artistas devem se posicionar politicamente nas redes?",
+        "Portal Leo Dias"
+      ],
+      [
+        "Carlos Alberto de Nóbrega recebe alta",
+        "O apresentador e humorista deixou o hospital na sexta-feira (23), tranquilizando fãs e colegas de TV que acompanhavam seu estado de saúde nos últimos dias.",
+        "Qual quadro de A Praça É Nossa marcou a sua infância?",
+        "CNN Brasil"
+      ],
+      [
+        "Lua Blanco: família conta como foram as últimas horas",
+        "O pai da atriz revelou que ela se separou, voltou a morar com ele por um ano e partiu com um sorriso, de mãos dadas com a mãe, em relato que emocionou os fãs de Rebelde.",
+        "Qual personagem de Rebelde você mais amava?",
+        "Purepeople"
+      ]
     ]
   },
   "horoDia": {
-    "resumo": "Nesta terça-feira, os astros pedem calma e diplomacia: a Lua forma um trígono animador com Marte para boa parte do zodíaco, trazendo produtividade e vontade de resolver pendências, mas também exige atenção redobrada para não transformar pequenas discordâncias em grandes atritos. Um bom dia para escolher bem as palavras antes de agir.",
+    "resumo": "Segunda-feira de Lua Cheia e Mercúrio retrógrado em Escorpião: o céu pede calma, revisão de planos e nada de decisões precipitadas. Separe o que é urgência real do que é ansiedade, cuide do orçamento e equilibre trabalho e vida pessoal.",
     "grupos": [
-      ["Áries, Touro, Gêmeos e Câncer", "Áries foca a energia em metas pessoais e numa conversa aberta sobre expectativas com quem convive. Touro ganha assertividade e liderança, mas precisa evitar a teimosia diante de contratempos. Gêmeos fica mais proativo, com a rotina fluindo melhor, sem se sobrecarregar. Câncer busca diversão e leveza, mas sente as emoções à flor da pele — vale cautela também com as finanças."],
-      ["Leão, Virgem, Libra e Escorpião", "Leão começa o dia disposto a fazer acontecer, com foco em casa e família. Virgem sente a confiança crescer e ganha jogo de cintura para conduzir conversas difíceis com diplomacia. Libra inicia mais tenso, mas termina com sensação de dever cumprido e vontade de investir — com critério. Escorpião precisa de calma redobrada: é dia de adiar decisões importantes e evitar embates por impulsividade."],
-      ["Sagitário, Capricórnio, Aquário e Peixes", "Sagitário aproveita a maré de sorte para abrir novos caminhos profissionais e financeiros, com chance de reencontro em família. Capricórnio resolve pendências domésticas e vê o trabalho engrenar, com as finanças se estabilizando. Aquário tem dia produtivo, com chances de ganho e novas parcerias. Peixes fecha o time com a confiança em alta nas próprias convicções."]
+      [
+        "Áries, Touro, Gêmeos, Câncer",
+        "Moderação nos gastos e na vida social. Touro olha para a vida privada e a família; Gêmeos ajusta metas para algo mais realista; Câncer brilha na colaboração, mas com cautela nas despesas."
+      ],
+      [
+        "Leão, Virgem, Libra, Escorpião",
+        "Leão cuida da gestão e do bem-estar; Virgem desacelera para refletir; Libra revisa laços de confiança e intimidade; Escorpião precisa de diplomacia no trabalho."
+      ],
+      [
+        "Sagitário, Capricórnio, Aquário, Peixes",
+        "Capricórnio começa focado em metas, mas sem cobranças excessivas; Aquário é acolhedor, porém seletivo; Peixes revisa o planejamento do dia a dia. Sagitário segue o fluxo com leveza."
+      ]
     ]
   }
 }
