@@ -6,49 +6,250 @@
       "edicao": 1,
       "data": "2026-08-05",
       "palavra_amiga": "Hoje é um bom dia para começar de novo, com calma e sem pressa...",
-      "bg_musicas": ["É Preciso Saber Viver - Roberto Carlos & Erasmo Carlos", "Trevo (Tu) - Sandy & Junior", "Encontros e Despedidas - Maria Rita"],
-      "triplex": ["Eu Te Seguro - Panda", "Tubarões (Ao Vivo) - Diego & Victor Hugo", "The Fate of Ophelia - Taylor Swift"],
-      "melhor_de_tres": ["Detalhes - Roberto Carlos", "Como Nossos Pais - Elis Regina", "Metamorfose Ambulante - Raul Seixas", "Pro Dia Nascer Feliz - Cazuza", "Como Uma Onda - Lulu Santos", "Fixação - Kid Abelha", "Malandragem - Cássia Eller", "Vou Deixar - Skank", "Depois do Prazer - Kid Abelha", "Deixa a Vida Me Levar - Zeca Pagodinho", "É o Amor - Zezé Di Camargo & Luciano", "Festa - Ivete Sangalo"],
-      "horoscopo_curiosidades": ["Leão", "Touro", "Escorpião"],
-      "dicas_uteis": ["Organize as contas com um dia de antecedência", "Faxina relâmpago de 15 minutos antes de visita", "Respiração 4-7-8 para aliviar o estresse"],
-      "pauta_temas": ["Bruna Marquezine e Shawn Mendes", "Sabrina Sato grávida", "Xuxa - turnê de despedida", "MasterChef Brasil 2026 - repescagem", "Novela Quem Ama Cuida - reviravolta Francesca"]
+      "bg_musicas": [
+        "É Preciso Saber Viver - Roberto Carlos & Erasmo Carlos",
+        "Trevo (Tu) - Sandy & Junior",
+        "Encontros e Despedidas - Maria Rita"
+      ],
+      "triplex": [
+        "Eu Te Seguro - Panda",
+        "Tubarões (Ao Vivo) - Diego & Victor Hugo",
+        "The Fate of Ophelia - Taylor Swift"
+      ],
+      "melhor_de_tres": [
+        "Detalhes - Roberto Carlos",
+        "Como Nossos Pais - Elis Regina",
+        "Metamorfose Ambulante - Raul Seixas",
+        "Pro Dia Nascer Feliz - Cazuza",
+        "Como Uma Onda - Lulu Santos",
+        "Fixação - Kid Abelha",
+        "Malandragem - Cássia Eller",
+        "Vou Deixar - Skank",
+        "Depois do Prazer - Kid Abelha",
+        "Deixa a Vida Me Levar - Zeca Pagodinho",
+        "É o Amor - Zezé Di Camargo & Luciano",
+        "Festa - Ivete Sangalo"
+      ],
+      "horoscopo_curiosidades": [
+        "Leão",
+        "Touro",
+        "Escorpião"
+      ],
+      "dicas_uteis": [
+        "Organize as contas com um dia de antecedência",
+        "Faxina relâmpago de 15 minutos antes de visita",
+        "Respiração 4-7-8 para aliviar o estresse"
+      ],
+      "pauta_temas": [
+        "Bruna Marquezine e Shawn Mendes",
+        "Sabrina Sato grávida",
+        "Xuxa - turnê de despedida",
+        "MasterChef Brasil 2026 - repescagem",
+        "Novela Quem Ama Cuida - reviravolta Francesca"
+      ]
     },
     {
       "edicao": 2,
       "data": "2026-08-05",
       "palavra_amiga": "Você não precisa ser perfeita hoje. Precisa só ser gentil com você mesma...",
-      "bg_musicas": ["Trem-Bala - Ana Vilela", "Todo Amor que Houver Nessa Vida - O Rappa", "Amor I Love You - Marisa Monte"],
-      "triplex": ["P do Pecado (Ao Vivo) - Simone Mendes & Grupo Menos É Mais", "Die With A Smile - Lady Gaga & Bruno Mars", "Princesa - part. Ana Castela"],
-      "melhor_de_tres": ["Águas de Março - Elis Regina & Tom Jobim", "Você Abusou - Trio Mocotó", "Andança - Beth Carvalho", "Metrô Linha 743 - Metrô", "Ando Meio Desligado - Cazuza & Barão Vermelho", "Bete Balanço - Titãs", "É o Tchan! - É o Tchan", "Dois Rios - Djavan", "Anna Julia - Los Hermanos", "Borboletas - Marisa Monte", "Preciso Dizer Que Te Amo - Sandy & Junior", "Segue o Seco - Asa de Águia"],
-      "horoscopo_curiosidades": ["Câncer", "Sagitário", "Peixes"],
-      "dicas_uteis": ["Congele porções etiquetadas com data", "Regra dos 2 minutos contra a bagunça", "Um copo de água antes do café da manhã"],
-      "pauta_temas": ["Neymar x presidente do Remo", "Novela A Nobreza do Amor", "Cate Blanchett - ioga", "Virgínia Fonseca - receita fitness", "Novela Por Você - looks da première"]
+      "bg_musicas": [
+        "Trem-Bala - Ana Vilela",
+        "Todo Amor que Houver Nessa Vida - O Rappa",
+        "Amor I Love You - Marisa Monte"
+      ],
+      "triplex": [
+        "P do Pecado (Ao Vivo) - Simone Mendes & Grupo Menos É Mais",
+        "Die With A Smile - Lady Gaga & Bruno Mars",
+        "Princesa - part. Ana Castela"
+      ],
+      "melhor_de_tres": [
+        "Águas de Março - Elis Regina & Tom Jobim",
+        "Você Abusou - Trio Mocotó",
+        "Andança - Beth Carvalho",
+        "Metrô Linha 743 - Metrô",
+        "Ando Meio Desligado - Cazuza & Barão Vermelho",
+        "Bete Balanço - Titãs",
+        "É o Tchan! - É o Tchan",
+        "Dois Rios - Djavan",
+        "Anna Julia - Los Hermanos",
+        "Borboletas - Marisa Monte",
+        "Preciso Dizer Que Te Amo - Sandy & Junior",
+        "Segue o Seco - Asa de Águia"
+      ],
+      "horoscopo_curiosidades": [
+        "Câncer",
+        "Sagitário",
+        "Peixes"
+      ],
+      "dicas_uteis": [
+        "Congele porções etiquetadas com data",
+        "Regra dos 2 minutos contra a bagunça",
+        "Um copo de água antes do café da manhã"
+      ],
+      "pauta_temas": [
+        "Neymar x presidente do Remo",
+        "Novela A Nobreza do Amor",
+        "Cate Blanchett - ioga",
+        "Virgínia Fonseca - receita fitness",
+        "Novela Por Você - looks da première"
+      ]
     },
     {
       "edicao": "3 (app com variações)",
       "data": "2026-08-05",
       "observacao": "Nesta edição foram preparadas variações adicionais (3 e 4) para cada bloco, já embutidas no app com botão de renovar. Itens novos usados nas variações 3 e 4, ainda não usados nas edições 1 e 2:",
-      "palavra_amiga_variacoes_extra": ["Errar faz parte de tentar...", "Ninguém pediu para você ser forte o tempo todo..."],
-      "bg_musicas_extra": ["Metade - Zeca Baleiro", "O Que Sobrou do Céu - Skank", "Flores Astrais - Ivete Sangalo", "Setembro (Que Chuva é Essa) - Nando Reis", "Depende de Nós - Ana Carolina & Seu Jorge", "Sinal Fechado - Paulinho da Viola"],
-      "triplex_extra": ["Jetski - Pedro Sampaio, Melody & MC Meno K", "Vagabundo - Gusttavo Lima & Luis Fonsi", "Espresso - Sabrina Carpenter", "Quarto 67 - part. Luan Santana", "Desocupa - part. Cleber e Cauan", "Birds of a Feather - Billie Eilish"],
-      "melhor_de_tres_extra": ["Como É Grande o Meu Amor por Você - Roberto Carlos", "O Bêbado e a Equilibrista - Elis Regina", "Cio da Terra - Milton Nascimento & Elis Regina", "Codinome Beija-Flor - Ritchie", "Tempos Modernos - Lulu Santos", "Faroeste Caboclo - Legião Urbana", "Pense em Mim - Roupa Nova", "Fico Assim Sem Você - Claudinho & Buchecha", "Devolva-me - Skank", "Ainda Gosto Dela - Zeca Pagodinho", "Meiga e Abusada - Companhia do Pagode", "Se Eu Não Te Amasse Tanto Assim - Marisa Monte"],
-      "horoscopo_curiosidades_extra": ["Áries", "Virgem", "Libra"],
-      "dicas_uteis_extra": ["Defina as 3 prioridades do dia antes de sair de casa", "Deixe bolsa e chaves sempre no mesmo lugar", "Programe um alarme só para beber água", "Alongue pescoço e ombros por 5 minutos", "Anote os gastos no celular na hora que gastar", "Prepare o café da manhã do dia seguinte antes de dormir"],
-      "pauta_temas_extra": ["Vini Jr. - contrato Real Madrid", "Claudia Raia - mansão sustentável", "Leilão beneficente de Neymar - looks", "Cachorrinha de Bruna Marquezine", "Série Fúria - Netflix", "Jantar Bruna Marquezine e Shawn Mendes com Sasha e João Lucas", "Perfume gêmeo baratinho", "Dicas para disfarçar fios brancos", "Processo Deborah Secco e vizinho", "Carta da mãe de Deolane Bezerra"]
+      "palavra_amiga_variacoes_extra": [
+        "Errar faz parte de tentar...",
+        "Ninguém pediu para você ser forte o tempo todo..."
+      ],
+      "bg_musicas_extra": [
+        "Metade - Zeca Baleiro",
+        "O Que Sobrou do Céu - Skank",
+        "Flores Astrais - Ivete Sangalo",
+        "Setembro (Que Chuva é Essa) - Nando Reis",
+        "Depende de Nós - Ana Carolina & Seu Jorge",
+        "Sinal Fechado - Paulinho da Viola"
+      ],
+      "triplex_extra": [
+        "Jetski - Pedro Sampaio, Melody & MC Meno K",
+        "Vagabundo - Gusttavo Lima & Luis Fonsi",
+        "Espresso - Sabrina Carpenter",
+        "Quarto 67 - part. Luan Santana",
+        "Desocupa - part. Cleber e Cauan",
+        "Birds of a Feather - Billie Eilish"
+      ],
+      "melhor_de_tres_extra": [
+        "Como É Grande o Meu Amor por Você - Roberto Carlos",
+        "O Bêbado e a Equilibrista - Elis Regina",
+        "Cio da Terra - Milton Nascimento & Elis Regina",
+        "Codinome Beija-Flor - Ritchie",
+        "Tempos Modernos - Lulu Santos",
+        "Faroeste Caboclo - Legião Urbana",
+        "Pense em Mim - Roupa Nova",
+        "Fico Assim Sem Você - Claudinho & Buchecha",
+        "Devolva-me - Skank",
+        "Ainda Gosto Dela - Zeca Pagodinho",
+        "Meiga e Abusada - Companhia do Pagode",
+        "Se Eu Não Te Amasse Tanto Assim - Marisa Monte"
+      ],
+      "horoscopo_curiosidades_extra": [
+        "Áries",
+        "Virgem",
+        "Libra"
+      ],
+      "dicas_uteis_extra": [
+        "Defina as 3 prioridades do dia antes de sair de casa",
+        "Deixe bolsa e chaves sempre no mesmo lugar",
+        "Programe um alarme só para beber água",
+        "Alongue pescoço e ombros por 5 minutos",
+        "Anote os gastos no celular na hora que gastar",
+        "Prepare o café da manhã do dia seguinte antes de dormir"
+      ],
+      "pauta_temas_extra": [
+        "Vini Jr. - contrato Real Madrid",
+        "Claudia Raia - mansão sustentável",
+        "Leilão beneficente de Neymar - looks",
+        "Cachorrinha de Bruna Marquezine",
+        "Série Fúria - Netflix",
+        "Jantar Bruna Marquezine e Shawn Mendes com Sasha e João Lucas",
+        "Perfume gêmeo baratinho",
+        "Dicas para disfarçar fios brancos",
+        "Processo Deborah Secco e vizinho",
+        "Carta da mãe de Deolane Bezerra"
+      ]
     },
     {
       "edicao": 4,
       "data": "2026-08-10",
-      "pauta_temas": ["Esther Marques (herdeira do Grupo Cimed) - casamento com Adolpho Mello", "Henrique Maderite - causa da morte confirmada", "Ana Castela - 'date' que era saída com amiga", "Novela Além do Tempo - reencontro em Belarrosa", "Craque Neto x Neymar - carrinho de golfe na Disney", "Wanessa Camargo - projeto Metamorfose 25 anos de carreira"],
-      "horoscopo_curiosidades": ["Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem", "Libra", "Escorpião", "Sagitário", "Capricórnio", "Aquário", "Peixes"]
+      "pauta_temas": [
+        "Esther Marques (herdeira do Grupo Cimed) - casamento com Adolpho Mello",
+        "Henrique Maderite - causa da morte confirmada",
+        "Ana Castela - 'date' que era saída com amiga",
+        "Novela Além do Tempo - reencontro em Belarrosa",
+        "Craque Neto x Neymar - carrinho de golfe na Disney",
+        "Wanessa Camargo - projeto Metamorfose 25 anos de carreira"
+      ],
+      "horoscopo_curiosidades": [
+        "Áries",
+        "Touro",
+        "Gêmeos",
+        "Câncer",
+        "Leão",
+        "Virgem",
+        "Libra",
+        "Escorpião",
+        "Sagitário",
+        "Capricórnio",
+        "Aquário",
+        "Peixes"
+      ]
     },
     {
       "edicao": 5,
       "data": "2026-08-18",
-      "pauta_temas": ["Dança dos Famosos 2026 - Ticiane Pinheiro estreia no Domingão com Huck", "Paula Fernandes - projeto 'Trinta & Poucos Anos'", "Ivete Sangalo - affair com Tiago Maia", "Thaís Carla e Israel Reis - fim do casamento de 11 anos", "Zezé Motta - retrospectiva de carreira no CineSesc", "Cristiano Ronaldo - cabelo ruivo"],
-      "horoscopo_curiosidades": ["Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem", "Libra", "Escorpião", "Sagitário", "Capricórnio", "Aquário", "Peixes"]
+      "pauta_temas": [
+        "Dança dos Famosos 2026 - Ticiane Pinheiro estreia no Domingão com Huck",
+        "Paula Fernandes - projeto 'Trinta & Poucos Anos'",
+        "Ivete Sangalo - affair com Tiago Maia",
+        "Thaís Carla e Israel Reis - fim do casamento de 11 anos",
+        "Zezé Motta - retrospectiva de carreira no CineSesc",
+        "Cristiano Ronaldo - cabelo ruivo"
+      ],
+      "horoscopo_curiosidades": [
+        "Áries",
+        "Touro",
+        "Gêmeos",
+        "Câncer",
+        "Leão",
+        "Virgem",
+        "Libra",
+        "Escorpião",
+        "Sagitário",
+        "Capricórnio",
+        "Aquário",
+        "Peixes"
+      ]
+    },
+    {
+      "edicao": 6,
+      "data": "2026-10-26",
+      "pauta_temas": [
+        "Lua Blanco - repercussão da morte e últimas horas",
+        "Renner - carreira solo em homenagem a Rick",
+        "Patrícia Poeta - 50 anos no Encontro",
+        "Famosos reagem ao resultado do 2º turno",
+        "Carlos Alberto de Nóbrega - alta hospitalar"
+      ],
+      "horoscopo_curiosidades": [
+        "Lua Cheia e Mercúrio retrógrado em Escorpião",
+        "Áries",
+        "Touro",
+        "Gêmeos",
+        "Câncer",
+        "Leão",
+        "Virgem",
+        "Libra",
+        "Escorpião",
+        "Sagitário",
+        "Capricórnio",
+        "Aquário",
+        "Peixes"
+      ]
     }
   ],
-  "todos_signos_ja_usados": ["Leão", "Touro", "Escorpião", "Câncer", "Sagitário", "Peixes", "Áries", "Virgem", "Libra", "Gêmeos", "Capricórnio", "Aquário"],
+  "todos_signos_ja_usados": [
+    "Leão",
+    "Touro",
+    "Escorpião",
+    "Câncer",
+    "Sagitário",
+    "Peixes",
+    "Áries",
+    "Virgem",
+    "Libra",
+    "Gêmeos",
+    "Capricórnio",
+    "Aquário"
+  ],
   "signos_restantes_para_proxima_rodada": []
 }
