@@ -1,59 +1,59 @@
 {
   "_instrucoes": "Este arquivo precisa ficar NA MESMA PASTA que index.html. O app so usa este pacote se o campo 'data' abaixo for igual ao dia de hoje (formato AAAA-MM-DD) - senao ele ignora e usa o rodizio automatico interno.",
-  "data": "2026-10-26",
+  "data": "2026-10-27",
   "tendencias": {
     "nota": "Fenômeno da vez",
-    "resumo": "A morte da atriz e cantora Lua Blanco, aos 39 anos, segue repercutindo. Conhecida por interpretar Roberta Messi na versão brasileira de 'Rebelde', exibida pela Record entre 2011 e 2012, e integrante do grupo Rebeldes, ela morreu no domingo (18) após meses de luta contra um câncer. A família, representada pelo irmão Daniel Blanco, anunciou a perda nas redes. Dulce María, da série original mexicana, disse estar completamente em choque, e ex-colegas como Sophia Abrahão e Arthur Aguiar publicaram homenagens emocionadas. Nesta semana, o pai da artista contou que ela partiu em paz, de mãos dadas com a mãe, o que comoveu ainda mais os fãs que cresceram acompanhando a turma de Rebelde. A despedida reacende a nostalgia de uma geração inteira. <a href='https://www.dgabc.com.br/Noticia/4353442/dulce-maria-e-elenco-de-rebelde-brasil-lamentam-morte-de-lua-blanco' target='_blank'>Fonte: Diário do Grande ABC</a>"
+    "resumo": "A atriz Marina Ruy Barbosa anunciou que vai se afastar das redes sociais depois de receber ameaças de morte. Tudo começou quando ela usou um look com estrela e sinalizou voto em Lula na reta final do segundo turno. Em desabafo, a atriz disse que estava sendo muito atacada e que precisava de um tempo longe da internet. A mãe dela publicou uma oração de proteção, pedindo paz e livramento dos perigos, o que comoveu seguidores e colegas de profissão. O caso virou assunto nacional e abriu discussão sobre o clima de ódio nas redes e sobre o direito dos artistas de expressar suas opiniões sem medo de violência. Enquanto isso, a vitória de Lula, reeleito com cerca de 52% dos votos, segue dividindo a web e rendendo reações de famosos dos dois lados. <a href='https://www.purepeople.com.br/noticia/marina-ruy-barbosa-recebe-ameacas-de-morte-apos-sinalizar-apoio-a-lula-mae-da-atriz-publica-oracao-de-protecao_a425737/1' target='_blank'>Fonte: Purepeople</a>"
   },
   "pauta": {
     "nota": "Papo de corredor",
     "topics": [
       [
-        "Renner volta aos palcos em homenagem a Rick",
-        "Um mês após o acidente aéreo que levou Rick, Renner confirmou carreira solo com o projeto 'Rick & Renner Pra Sempre – O Legado', prometendo manter viva a história da dupla sertaneja que marcou gerações.",
-        "Qual música de Rick & Renner nunca sai da sua cabeça?",
-        "Diário de Pernambuco"
+        "Marina Ruy Barbosa se afasta das redes",
+        "Após usar look com estrela e sinalizar voto em Lula, a atriz disse que recebeu ameaças de morte e decidiu se afastar das redes. A mãe dela publicou uma oração de proteção. O caso gerou onda de solidariedade de colegas e fãs.",
+        "Artista deve se posicionar politicamente ou é melhor ficar neutro?",
+        "Purepeople"
       ],
       [
-        "Patrícia Poeta faz 50 anos e chora no Encontro",
-        "A apresentadora comemorou o meio século de vida em Angra dos Reis, com edição especial do programa, show do Grupo Revelação e uma surpresa emocionante do filho Felipe, ao vivo, com buquê de flores.",
-        "Qual foi a surpresa de aniversário mais emocionante que você já recebeu?",
-        "Diário do Grande ABC"
+        "Tralli e Lo Prete: cobertura da Globo racha a web",
+        "A cobertura das eleições na Globo dividiu opiniões. César Tralli foi criticado por interromper a colega, enquanto Renata Lo Prete foi exaltada pelo público nas redes e ganhou o apelido carinhoso de 'grandona'.",
+        "Você assistiu à cobertura? Quem se saiu melhor?",
+        "Purepeople"
       ],
       [
-        "Famosos reagem ao resultado do 2º turno",
-        "Artistas como Fátima Bernardes, José Loreto e Alcione se manifestaram nas redes após a vitória de Lula, enquanto outros nomes públicos também comentaram o resultado das urnas.",
-        "Você acha que artistas devem se posicionar politicamente nas redes?",
-        "Portal Leo Dias"
+        "Thomaz Costa e Emily Garcia pedem ajuda a Trump",
+        "Após a vitória de Lula, o ator Thomaz Costa chamou Donald Trump nas redes pedindo conversa, e a influenciadora Emily Garcia alegou fraude sem provas. Os dois viraram alvo de piadas e memes na internet.",
+        "Já viu os memes? Qual foi o mais engraçado?",
+        "Terra"
       ],
       [
-        "Carlos Alberto de Nóbrega recebe alta",
-        "O apresentador e humorista deixou o hospital na sexta-feira (23), tranquilizando fãs e colegas de TV que acompanhavam seu estado de saúde nos últimos dias.",
-        "Qual quadro de A Praça É Nossa marcou a sua infância?",
-        "CNN Brasil"
+        "Mel Maia debocha de Thomaz Costa",
+        "A atriz Mel Maia reagiu com ironia ao pedido do ator Thomaz Costa por ajuda a Donald Trump após as eleições. A resposta rapidamente circulou nas redes e rendeu comentários de internautas.",
+        "Humor ou falta de respeito: o que você acha da reação?",
+        "Área VIP"
       ],
       [
-        "Lua Blanco: família conta como foram as últimas horas",
-        "O pai da atriz revelou que ela se separou, voltou a morar com ele por um ano e partiu com um sorriso, de mãos dadas com a mãe, em relato que emocionou os fãs de Rebelde.",
-        "Qual personagem de Rebelde você mais amava?",
+        "Bia Miranda terá que pagar R$ 120 mil por acidente",
+        "A Justiça determinou que a ex-participante de A Fazenda pague R$ 120 mil em indenizações e doe R$ 30 mil à AACD, em processo sobre o acidente com um Porsche em 2025, encerrando a ação.",
+        "Você acha a punição justa?",
         "Purepeople"
       ]
     ]
   },
   "horoDia": {
-    "resumo": "Segunda-feira de Lua Cheia e Mercúrio retrógrado em Escorpião: o céu pede calma, revisão de planos e nada de decisões precipitadas. Separe o que é urgência real do que é ansiedade, cuide do orçamento e equilibre trabalho e vida pessoal.",
+    "resumo": "Terça-feira de Lua em Touro: o dia pede os pés no chão, calma nas decisões e cuidado com o corpo e com as emoções. Quem segurar a impulsividade colhe harmonia nas relações e no bolso. Bom momento para organizar a vida e buscar segurança!",
     "grupos": [
       [
-        "Áries, Touro, Gêmeos, Câncer",
-        "Moderação nos gastos e na vida social. Touro olha para a vida privada e a família; Gêmeos ajusta metas para algo mais realista; Câncer brilha na colaboração, mas com cautela nas despesas."
+        "Áries, Leão, Sagitário e Câncer",
+        "Impulsividade em alerta: respire antes de gastar ou assumir compromissos. Um contato do passado pode reaparecer com novidade no amor. Câncer: acolha o que sente e vá no seu ritmo."
       ],
       [
-        "Leão, Virgem, Libra, Escorpião",
-        "Leão cuida da gestão e do bem-estar; Virgem desacelera para refletir; Libra revisa laços de confiança e intimidade; Escorpião precisa de diplomacia no trabalho."
+        "Touro, Virgem, Capricórnio e Escorpião",
+        "Com a Lua em Touro, saúde, aparência e bem-estar ganham destaque. Dia de organizar a vida e tomar decisões que tragam segurança. Atenção à convivência."
       ],
       [
-        "Sagitário, Capricórnio, Aquário, Peixes",
-        "Capricórnio começa focado em metas, mas sem cobranças excessivas; Aquário é acolhedor, porém seletivo; Peixes revisa o planejamento do dia a dia. Sagitário segue o fluxo com leveza."
+        "Gêmeos, Libra, Aquário e Peixes",
+        "Emoções à flor da pele: avalie os fatos com imparcialidade antes de agir e cuide da comunicação para evitar atritos. Planos de viagem podem mudar; desacelere."
       ]
     ]
   }
